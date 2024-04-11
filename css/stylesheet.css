@@ -122,7 +122,7 @@ nav > a {
     width: 100%;
 }
 .spacer {
-    height: 30vh;
+    height: 50vh;
 }
 
 .corps {
@@ -225,8 +225,9 @@ main {
     margin: 0 10%;
 }
 
+
 #portfolio-section {
-    height: calc(var(--nbRow)*3*10rem);
+    height: 100dvh;
 }
 
 .projet {
@@ -240,6 +241,7 @@ main {
     border-radius: 28px;
     border-style: solid;
     justify-content: space-between;
+    margin-bottom: 10dvh;
 }
 
 .projet:nth-child(even) {
@@ -254,7 +256,7 @@ main {
 .projet:nth-child(odd) {
     padding: 1rem 0 1rem 10%;
 }
-#logo-crous, #logo-correspondance, #logo-jo {
+.logo {
     filter: invert();
     padding-right: 1rem;
     height: var(--icon-size);
@@ -269,6 +271,8 @@ main {
 .dropdown:hover {
     cursor: pointer;
 }
+
+
 
 .projet > div {
     display: flex;

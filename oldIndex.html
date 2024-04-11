@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stylesheet.css">
-    <script src="js/test.js"></script>
+    <script type="module" src="js/test.js"></script>
     <title>Portfolio Armand SADY</title>
 </head>
 <main>
@@ -216,7 +216,7 @@
                         </div>
                         <img src="https://static.thenounproject.com/png/1123247-200.png" alt="" id="dropdown-crous" class="dropdown">
                     </div>
-                    <div id="crous-wrapper" class="projet content scale-in-center">
+                    <div id="crous-wrapper" class="projet content scale-in-center" style="display: none;">
                         <div class="desc">
                             <p>Les AS du CROUS est un projet de <i> 3 jours </i> ayant comme but de nous faire apprendre la <i>méthodologie agile SCRUM</i> dans un contexte acceléré (sprints de 1h30) <br> Le jeu video est <i>entièrement jouable<br>depuis un terminal shell</i></p>
                         </div>
@@ -231,7 +231,7 @@
                             </p>
                         </div>
                         <div class="langue2">
-                            <p><img src="./res/JAVA.png" alt="JAVA"><br><a style="color: orange;" href="https://github.com/armandclonesady/As-Du-Crous">Lien vers le dépôt</a></p>
+                            <p><img src="./res/JAVA.png" alt="JAVA"><br><a style="color: orange;" href="https://gitlab.univ-lille.fr/2023-projet-agile-de-rentree/groupe-19">Lien vers le dépôt</a></p>
                         </div>
                         <div class="langue3">
                             <p> Groupe de <i>5 étudiants</i> </p>
@@ -244,7 +244,7 @@
                         </div>
                         <img src="https://static.thenounproject.com/png/1123247-200.png" alt="" id="dropdown-correspondance" class="dropdown">
                     </div >
-                    <div id="correspondance-wrapper" class="projet content scale-in-center">
+                    <div id="correspondance-wrapper" class="projet content scale-in-center" style="display: none;">
                         <div>
                             <p> Mai 2023 - Juillet 2023 </p>
                         </div>
@@ -259,7 +259,7 @@
                             </p>
                         </div>
                         <div class="langue2">
-                            <p><img src="./res/JAVA.png" alt="">& JavaFx<br><a style="color: orange;" href="https://github.com/armandclonesady/voyage-etranger">Lien vers le dépôt</a></p>
+                            <p><img src="./res/JAVA.png" alt="">& JavaFx<br><a style="color: orange;" href="https://gitlab.univ-lille.fr/sae2.01-2.02/2023/D2">Lien vers le dépôt</a></p>
                         </div>
                         <div class="langue3">
                             <p> Groupe de <i>3 étudiants</i> <br> </p>
@@ -272,7 +272,7 @@
                         </div>
                         <img src="https://static.thenounproject.com/png/1123247-200.png" alt="" id="dropdown-jo" class="dropdown">
                     </div>
-                    <div id="jo-wrapper" class="projet content scale-in-center">
+                    <div id="jo-wrapper" class="projet content scale-in-center" style="display: none;">
                         <div>
                             <p> Mars 2023 - Mai 2023 </p>
                         </div>
@@ -286,7 +286,7 @@
                             <p> Compétences apprises: <br> <i>PostgreSQL <br> Statistiques <br> Markdown <br> </i>
                         </div>
                         <div class="langue2">
-                            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/640px-Postgresql_elephant.svg.png" alt=""><br><a style="color: orange;" href="https://github.com/armandclonesady/jo-olympique">Lien vers le dépôt</a></p>
+                            <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/640px-Postgresql_elephant.svg.png" alt=""><br><a style="color: orange;" href="https://gitlab.univ-lille.fr/raphael.kiecken.etu/s2.04">Lien vers le dépôt</a></p>
                         </div>
                         <div class="langue3">
                             <p> Groupe de <i>2 étudiants</i> <br> </p>
@@ -300,46 +300,87 @@
                         </div>
                         <img src="https://static.thenounproject.com/png/1123247-200.png" alt="" id="dropdown-chasse" class="dropdown">
                     </div>
-                    <div id="chasse-wrapper" class="projet content">
-                        <p>Septembre 2023 - Janvier 2024 <br></p>
-                        <p>La chasse aux monstres est un projet se déroulant sur l'entièretée du semestre 3, ayant pour but de nous faire approfondir notre connaissance du <i>JavaFX</i>, de <i>l'algorithmie</i> et du <i>travail d'équipe</i> <br> Le projet se présente sous forme de <i>jeu de plateau</i> en 1 contre 1, où un joueur doit tirer sur des cases du plateau, tandis que l'autre joueur dois se déplacer et éviter les tirs. Le plateau est un labyrinthe généré automatiquement</p>
-                        <p>IUT Informatique - Villeneuve d'Ascq</p>
-                        <p> Compétences apprises: <br> <i>Patron de programmation <br> Algo de Prim & A* <br> JavaFX Avancé</i>
-                        <p> Groupe de 4 étudiants</p>
-                        <p><a href="https://github.com/armandclonesady/chasse-au-monstre" style="color: orange;">Lien vers le dépôt</a></p>
-                    </div>
-                    
-                    <div id="pizzeria" class="projet">
+                    <div id="chasse-wrapper" class="projet content scale-in-center" style="display: none;">
+                        <div class="desc">
+                            <p>La chasse aux monstres est un projet se déroulant sur l'entièretée du semestre 3 de l'IUT Informatique de Lille, ayant pour but de nous faire approfondir notre connaissance du <i>JavaFX</i>, de <i>l'algorithmie</i> et le <i>travail d'équipe</i> <br> Le jeu est un <i>jeu de plateau</i> en 1 contre 1, où un joueur doit tirer sur des cases du plateau, tandis que l'autre joueur dois se déplacer et eviter les tirs. Le plateau est un labyrinthe généré automatiquement</p>
                         <div>
-                            <img src="https://cdn-icons-png.flaticon.com/512/599/599995.png" alt="AS" class="logo">
+                            <p> Septembre 2023 - Janvier 2024</p>
+                        </div>
+                        <div>
+                            <p> IUT Informatique - Villeneuve d'Ascq</p>
+                        </div>
+                        <div class="langue1">
+                            <p> Compétences apprises: <br> <i>Méthodologie agile <br> SCRUM <br> Travail d'équipe</i>
+                            </p>
+                        </div>
+                        <div class="langue2">
+                            <p><img src="./res/JAVA.png" alt="JAVA"><br><a style="color: orange;" href="https://gitlab.univ-lille.fr/2023-projet-agile-de-rentree/groupe-19">Lien vers le dépôt</a></p>
+                        </div>
+                        <div class="langue3">
+                            <p> Groupe de <i>5 étudiants</i> </p>
+                        </div>
+                    </div>
+
+
+                    <div id="pizza" class="projet">
+                        <div>
+                            <img src="https://static.thenounproject.com/png/900146-200.png" alt="AS" class="logo">
                             <p><i>API Pizzeria</i></p>                            
                         </div>
-                        <img src="https://static.thenounproject.com/png/1123247-200.png" alt="" id="dropdown-chasse" class="dropdown">
+                        <img src="https://static.thenounproject.com/png/1123247-200.png" alt="" id="dropdown-crous" class="dropdown">
                     </div>
-                    <div id="chasse-wrapper" class="projet content">
-                        <p>Fevrier 2024 - Mars 2024 <br></p>
-                        <p>Ce projet consista a créer une API (interface de programmation d'application) permettant, avec des requêtes HTTP, d'altérer une base de données. On peut modifier les ingrédients, ajouter des pizzas ou ajouter des commandes de pizza depuis cette API.</p>
-                        <p>IUT Informatique - Villeneuve d'Ascq</p>
-                        <p> Compétences apprises: <br> <i>JavaEE <br> Bruno <br> Création d'une API REST </i>
-                        <p> Groupe de 2 étudiants</p>
-                        <p><a href="https://github.com/armandclonesady/api-pizza" style="color: orange;">Lien vers le dépôt</a></p>
+                    <div id="crous-wrapper" class="projet content scale-in-center" style="display: none;">
+                        <div class="desc">
+                            <p>Les AS du CROUS est un projet de <i> 3 jours </i> ayant comme but de nous faire apprendre la <i>méthodologie agile SCRUM</i> dans un contexte acceléré (sprints de 1h30) <br> Le jeu video est <i>entièrement jouable<br>depuis un terminal shell</i></p>
+                        </div>
+                        <div>
+                            <p> Septembre 2023 </p>
+                        </div>
+                        <div>
+                            <p> IUT Informatique - Villeneuve d'Ascq</p>
+                        </div>
+                        <div class="langue1">
+                            <p> Compétences apprises: <br> <i>Méthodologie agile <br> SCRUM <br> Travail d'équipe</i>
+                            </p>
+                        </div>
+                        <div class="langue2">
+                            <p><img src="./res/JAVA.png" alt="JAVA"><br><a style="color: orange;" href="https://gitlab.univ-lille.fr/2023-projet-agile-de-rentree/groupe-19">Lien vers le dépôt</a></p>
+                        </div>
+                        <div class="langue3">
+                            <p> Groupe de <i>5 étudiants</i> </p>
+                        </div>
                     </div>
+
 
                     <div id="steredeux" class="projet">
                         <div>
-                            <img src="https://static.thenounproject.com/png/13581-200.png" alt="AS" class="logo">
+                            <img src="https://static.thenounproject.com/png/900146-200.png" alt="AS" id="logo-crous">
                             <p><i>Steredeux</i></p>                            
                         </div>
-                        <img src="https://static.thenounproject.com/png/1123247-200.png" alt="" id="dropdown-chasse" class="dropdown">
+                        <img src="https://static.thenounproject.com/png/1123247-200.png" alt="" id="dropdown-crous" class="dropdown">
                     </div>
-                    <div id="chasse-wrapper" class="projet content">
-                        <p>Fevrier 2024 - Avril 2024 <br></p>
-                        <p>Ce projet, qui dura 3 mois, nous a donné l'occasion de créer un jeu vidéo sur le web, en réseau. Le but du jeu était de survivre le plus longtemps, avec des vagues d'ennemies apparaissant réguliérement.</p>
-                        <p>IUT Informatique - Villeneuve d'Ascq</p>
-                        <p> Compétences apprises: <br> Front end:  <i>JS Vanilla</i> <br> Back end: <i>Node JS</i> <br> Front end: <i>jQuery</i> <br> <i>Gestion d'équipe </i>
-                        <p> Groupe de 3 étudiants</p>
-                        <p><a href="https://github.com/armandclonesady/jsae" style="color: orange;">Lien vers le dépôt</a></p>
+                    <div id="crous-wrapper" class="projet content scale-in-center" style="display: none;">
+                        <div class="desc">
+                            <p>Les AS du CROUS est un projet de <i> 3 jours </i> ayant comme but de nous faire apprendre la <i>méthodologie agile SCRUM</i> dans un contexte acceléré (sprints de 1h30) <br> Le jeu video est <i>entièrement jouable<br>depuis un terminal shell</i></p>
+                        </div>
+                        <div>
+                            <p> Septembre 2023 </p>
+                        </div>
+                        <div>
+                            <p> IUT Informatique - Villeneuve d'Ascq</p>
+                        </div>
+                        <div class="langue1">
+                            <p> Compétences apprises: <br> <i>Méthodologie agile <br> SCRUM <br> Travail d'équipe</i>
+                            </p>
+                        </div>
+                        <div class="langue2">
+                            <p><img src="./res/JAVA.png" alt="JAVA"><br><a style="color: orange;" href="https://gitlab.univ-lille.fr/2023-projet-agile-de-rentree/groupe-19">Lien vers le dépôt</a></p>
+                        </div>
+                        <div class="langue3">
+                            <p> Groupe de <i>5 étudiants</i> </p>
+                        </div>
                     </div>
+                </div>
             </div>
             <div id="contact-section" class="section">
                 <div id="tel" class="contact" onmouseenter="imageRotation('tel-image', true)" onmouseleave="imageRotation('tel-image', false)">

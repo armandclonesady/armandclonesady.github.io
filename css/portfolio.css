@@ -1,0 +1,143 @@
+:root {
+    --color1: #000814;
+    --color2: #001D3D;
+    --color3: #003566;
+    --color4: #FFC300;
+    --color5: #FFD60A;
+    --color6: #F27121;
+    --color7: #E94057;
+    --color8: #8A2387;
+    --grandiant: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+}
+
+@keyframes bounce {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
+
+.portfolio-content {
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    align-items: center;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1dvw;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1dvw;
+    padding: 1dvw 0 0 1dvw;
+    margin: 1dvw;
+    width: 20dvw;
+    min-height: fit-content;
+    background: var(--grandiant);
+    border-radius: 1dvw;
+    color: #FFF;
+    font-size: 1.4dvw;
+}
+
+.project-icon {
+    width: 3dvw;
+    height: 3dvw;
+    filter: invert();   
+}
+
+.see-more {
+    cursor: pointer;
+    transition: rotate 1s;
+}
+
+.see-more:hover {
+    animation: bounce 2s ease-in-out 0s 1 normal forwards;
+}
+
+.activated {
+    rotate: 180deg;
+}
+
+.portfolio-content .content {
+    height: calc(6*8dvw);
+    width: 100%;
+}
+
+#portfolio p {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.projet-detail-item .icon {
+    filter: invert();
+}
+
+.projet-detail-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5dvw;
+
+}
+
+.link {
+    color: #E94057;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #8A2387;
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+}
+
+.date {
+    margin: 0;
+}
+
+.tech, .location {
+    color: var(--color6)
+}
+
+.date {
+    color: var(--color4);
+}

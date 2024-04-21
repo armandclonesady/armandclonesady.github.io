@@ -1,0 +1,18 @@
+.contact .icon {
+    filter: invert();
+    width: 3dvw;
+}
+
+#contact .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+    margin: 1dvh;
+}
+
+.contact {
+    margin: 1dvw;
+    cursor: pointer;
+}

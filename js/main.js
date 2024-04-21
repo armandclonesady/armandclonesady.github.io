@@ -61,16 +61,26 @@ function ugliestFunctionEverButILikeIt(projectTitle) {
             console.log("Chasse aux monstres");
             projectDetail.querySelector('.link').href = "https://github.com/armandclonesady/chasse-au-monstre";
             dateText = "Avril 2023 - Juin 2023";
+            descriptionText = `
+            La chasse aux monstres est un projet se déroulant sur l'entièretée du semestre 3, ayant pour but de nous faire approfondir notre connaissance du JavaFX, de l'algorithmie et du travail d'équipe
+            Le projet se présente sous forme de jeu de plateau en 1 contre 1, où un joueur doit tirer sur des cases du plateau, tandis que l'autre joueur dois se déplacer et éviter les tirs. Le plateau est un labyrinthe généré automatiquement.
+            `;
             break;
         case "API Pizzeria":
             console.log("API Pizzeria");
             projectDetail.querySelector('.link').href = "https://github.com/armandclonesady/api-pizza";
             dateText = "Fevrier 2024 - Mars 2024";
+            descriptionText = `
+            Ce projet consista a créer une API (interface de programmation d'application) permettant, avec des requêtes HTTP, d'altérer une base de données. On peut modifier les ingrédients, ajouter des pizzas ou ajouter des commandes de pizza depuis cette API.
+            `;
             break;
         case "Steredeux":
             console.log("Steredeux");
             projectDetail.querySelector('.link').href = "https://github.com/armandclonesady/jsae";
             dateText = "Fevrier 2024 - Avril 2024";
+            descriptionText = `
+            Ce projet, qui dura 3 mois, nous a donné l'occasion de créer un jeu vidéo sur le web, en réseau. Le but du jeu était de survivre le plus longtemps, avec des vagues d'ennemies apparaissant réguliérement.
+            `;
             break;
     }
     projectDetail.querySelector('.link').innerHTML = linkText;

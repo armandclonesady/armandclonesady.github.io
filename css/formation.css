@@ -77,6 +77,6 @@
     }
   }
 
-#formations .content {
+#formations .content, #experiences .content{
   padding-top: 5dvh;
 }

@@ -1,0 +1,70 @@
+{
+    "info": [
+        {
+            "name": "Les As du CROUS",
+            "values" : {
+                "date": "Septembre 2023",
+                "lieu": "IUT Info - Villeneuve d'Ascq",
+                "description": "Jeu développé en java sur 3 jours en groupe de 5 étudiants. Ce projet consistait a la création d'un jeu se jouait uniquement sur le terminal de la machine, mais le contenu du jeu était secondaire a la méthode agile SCRUM que nous avons appris.",
+                "apprentissage": "Lors de ce projet j'ai eu l'occasion de travailler en équipe avec des inconnues, de travailler avec un temps bien plus réduit que d'habitude, et de pratiquer la méthode agile SCRUM, utilisée en entreprise.",
+                "tech": "Java",
+                "link": "https://github.com/armandclonesady/As-Du-Crous"
+            }
+        },
+        {
+            "name": "Voyage Scolaire International",
+            "values" : {
+                "date": "Avril 2023 - Juin 2023",
+                "lieu": "IUT Info - Villeneuve d'Ascq",
+                "description":"Application sous JavaFX permettant de gérer la consistution de bînomes d'élèves selon leurs préférances pour des échanges scolaire. Ce projet a été réalisé en groupe de 3 étudiants lors de ma première année a l'IUT, et été un bon moyen de travailler avec JavaFX et en groupe.",
+                "apprentissage": "Lors de ce projet j'ai eu l'occasion de travailler en groupe, de développé mes connaissances en JavaFX ainsi qu'en Java. Les algorithmes de recherches tel que Dijkstra ont été utilisé pour la recherche des bînomes.",
+                "tech": "Java, JavaFX",
+                "link": "https://github.com/armandclonesady/voyage-etranger"
+            }
+        },
+        {
+            "name": "JO Analyse statistique",
+            "values" : {
+                "date": "Septembre 2023 - Janvier 2024",
+                "lieu": "IUT Info - Villeneuve d'Ascq",
+                "description":"Ce projet, fait en bînomes, était un peu différent des autres, car la partie informatique, bien que présente, n'était pas la plus importante.Cette dernière consistait a créer une base de donnée sous SQLa partir d'une liste de tous les participants aux JO depuis leur première éditions modernes a 2016.La plus grande partie était l'analyse statistique des données, et la création de graphiques pour les présenter.",
+                "apprentissage":  "Lors de ce projet j'ai eu l'occasion de partir de 0 et de créer une base de donnée simple a naviguer, ainsi que de travailler avec des données réelles, de les analyser et de les présenter de manière claire et concise.",
+                "tech": "SQL",
+                "link": "https://github.com/armandclonesady/chasse-au-monstre"
+            }
+        },
+        {
+            "name": "Chasse aux monstres",
+            "values" : {
+                "date": "Avril 2023 - Juin 2023",
+                "lieu": "IUT Info - Villeneuve d'Ascq",
+                "description": "Ce jeu, fait en équipes de 4 lors du premier semestre de la seconde année de BUT Informatique, était un jeu dans lequel jusqu'à deux joueurs pouvaient s'affronter. Où un joueur étais le monstre et l'autre le chasseur. Le monstre se déplace dans un labyrinthe généré automatiquement, et le chasseur doit lui tirer dessus avant que le monstre ne trouve la sortie du labyrinthe.",
+                "apprentissage": "Lors de ce projet j'ai eu l'occasion de travailler en équipe, d'approfondir mes conaissances en JavaFX, ainsi que d'appliquer le modèle MVC ainsi que d'autres patrons de conception tel que la Factory. J'ai aussi eu l'occasion d'apprendre de nouveaux algorithmes tels que A* pour l'IA du monstre & l'algorithme de Prim pour la génération du labyrinthe.",
+                "tech": "Java, JavaFX",
+                "link": "https://github.com/armandclonesady/voyage-etranger"
+            }
+        },
+        {
+            "name": "API Pizzeria",
+            "values": {
+                "date": "Fevrier 2024 - Mars 2024",
+                "lieu": "IUT Info - Villeneuve d'Ascq",
+                "description":"Ce projet nous demandait de créer une API Rest en Java en groupe de 2 étudiants. Nous avons donc créé premièrement une base de donnée sous PostgreSQL, puis une API permettant de faire des requêtes sur cette base de donnée. Dans ce but, nous avons utilisé des Servlet ainsi que le logiciel Bruno afin de tester les requêtes que notre API permettait de faire.",
+                "apprentissage": "Lors de ce projet, j'ai eu l'occasion d'en apprendre plus sur comment créer une API, ainsi que les Servlet en Java.",
+                "tech": "Java, PostgreSQL",
+                "link": "https://github.com/armandclonesady/api-pizza"
+            }
+        },
+        {
+            "name": "Steredeux",
+            "values": {
+                "date": "Fevrier 2024 - Avril 2024",
+                "lieu": "IUT Info - Villeneuve d'Ascq",
+                "description": "Ce projet, fait en binôme, est un jeu de tir de type \"Shoot 'em up\" jouable en multijoueur depuis le navigateur. Le but du jeu étant de survivre le plus longtemps contre des vagues de vaisseaux ennemies.",
+                "apprentissage": "Lors de ce projet, j'ai eu l'occasion d'apprendre bien plus profondément comment le JS fonctionne, ainsi que d'apprendre a utiliser JQuery & NodeJS, le premier pour plus facilement géré le frontside et le second pour géré le serveur qui tourne derrière.", 
+                "tech": "JavaScript, NodeJS, JQuerry, HTML/CSS",
+                "link": "https://github.com/armandclonesady/jsae"
+            }
+        }
+    ]
+}

@@ -44,16 +44,19 @@
 
 .portfolio-content {
     display: flex;
+    min-height: calc(6*8dvw);
     flex-direction: row;
     justify-content:start;
     align-items: center;
 }
 
-.project-list {
+.projet-liste {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-self: start;
     justify-content: space-around;
     padding: 1dvw;
+    min-height: calc(6*8dvw);
 }
 
 .project-item {
@@ -91,7 +94,6 @@
 }
 
 .portfolio-content .content {
-    height: calc(6*8dvw);
     width: 100%;
 }
 
@@ -105,14 +107,17 @@
 
 .projet-detail-item .icon {
     filter: invert();
+    width: 5dvw;
+    height: 5dvw;
+    margin: 2dvw 0;
 }
 
 .projet-detail-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0.5dvw;
-
+    padding: 0.5dvw 2dvw;
+    min-height: calc(6*8dvw);
 }
 
 .link {
@@ -140,4 +145,8 @@ h2 {
 
 .date {
     color: var(--color4);
+}
+
+.desc, .apprentissage {
+    padding-bottom: 1dvw;
 }

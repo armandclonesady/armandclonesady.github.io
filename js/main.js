@@ -27,6 +27,7 @@ function setCorrectInfo(projectTitle) {
             projectDetail.querySelector('.desc').innerText = correctProject.description;
             projectDetail.querySelector('.apprentissage').innerText = correctProject.apprentissage;
             projectDetail.querySelector('.tech').innerText = correctProject.tech;
+            projectDetail.querySelector('.link').innerText = "Lien vers le projet";
             projectDetail.querySelector('.link').href = correctProject.link;
             return;
         }

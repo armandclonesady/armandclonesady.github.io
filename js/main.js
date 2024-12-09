@@ -14,6 +14,11 @@ fetch('../res/projectInfo.json')
 .then(json => json.info)
 .then(info => { projectJSON = info;
 });
+
+
+console.log(projectJSON);
+
+
 function setContact(contactSection) {
     const sections = contactSection.querySelectorAll(".contact");
     const section = sections[2];

@@ -3,6 +3,15 @@ const contactSection = document.querySelector('#contact');
 const projectItems = document.querySelectorAll('.project-item');
 const projectDetail = document.querySelector('.projet-detail-item');
 let projectJSON;
+
+import { setSkills } from "./setInfo.js";
+import skills from "./competences_data.js";
+
+for (const [key, value] of Object.entries(skills)) {
+    setSkills(key);
+  }
+
+
 fetch('../res/projectInfo.json')
 .then(response => response.json())
 .then(json => json.info)

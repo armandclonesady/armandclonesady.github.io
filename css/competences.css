@@ -89,7 +89,6 @@
   .ag-courses_item .icon {
     filter: invert();
     width: 2dvw;
-    padding-bottom: 2dvw;
   }
   
   
@@ -127,3 +126,15 @@
       font-size: 16px;
     }
   }
+
+.listSkills {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  background-color: #252e26;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}

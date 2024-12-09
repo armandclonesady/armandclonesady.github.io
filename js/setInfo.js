@@ -1,6 +1,6 @@
-import skills from './competences_data.js';
+import skills from './data/competences_data.js';
 
-export function setSkills(type) {
+function setSkills(type) {
     console.log(type);
     let html = "";
     skills[type].forEach((skill) => {
@@ -8,3 +8,10 @@ export function setSkills(type) {
     });
     document.querySelector(`.${type}`).innerHTML = html;
 } 
+
+
+export default function setAllSkills() {
+    for (const [key, value] of Object.entries(skills)) {
+        setSkills(key);
+    }
+}

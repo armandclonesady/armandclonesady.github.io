@@ -4,12 +4,9 @@ const projectItems = document.querySelectorAll('.project-item');
 const projectDetail = document.querySelector('.projet-detail-item');
 let projectJSON;
 
-import { setSkills } from "./setInfo.js";
-import skills from "./competences_data.js";
+import setAllSkills from "./setInfo.js";
 
-for (const [key, value] of Object.entries(skills)) {
-    setSkills(key);
-  }
+setAllSkills();
 
 
 fetch('../res/projectInfo.json')
@@ -28,7 +25,7 @@ function setContact(contactSection) {
 
 function setCorrectInfo(projectTitle) {
     projectJSON.forEach((project) => {
-        if (project.name == projectTitle) {
+        if (project.name == projectTitle) { 
             console.log(project.values);
             const correctProject = project.values;
             projectDetail.querySelector('.location').innerText = correctProject.lieu;
@@ -55,6 +52,7 @@ function removeText() {
 }
 
 function showCorrectProject(projectTitle, project) {
+    console.log(project);
     const currentProjectTitle = projectDetail.querySelector('h2');
     const holder = document.querySelector('.portfolio-content .content');
     if (holder.classList.contains('hidden')) {
@@ -76,8 +74,20 @@ function setProject() {
             event.preventDefault();
             const projectTitle = project.querySelector('p').innerText;
             showCorrectProject(projectTitle, project);
+            manageActive();
+            project.classList.add('active');
         });
     });
+}
+
+function manageActive() {
+    let project = document.querySelector('.projet-liste');
+    console.log(project);
+    project.querySelectorAll('.project-item').forEach((item) => {
+        if (item.classList.contains('active')) {
+            item.classList.remove('active');
+        }
+    })
 }
 
 window.addEventListener('load', (event) => {

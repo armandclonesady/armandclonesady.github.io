@@ -20,7 +20,7 @@ const web_skills = [
     "Node.js",
     "JQuery",
     "VueJS",
-    "NextJS",
+    "NestJS",
     "TS",
     "React"
 ]

@@ -65,6 +65,17 @@
                 "tech": "JavaScript, NodeJS, JQuerry, HTML/CSS",
                 "link": "https://github.com/armandclonesady/jsae"
             }
+        },
+        {
+            "name": "Clonify",
+            "values": {
+                "date": "Juin 2024 - Juillet 2024", 
+                "lieu": "NTNU - Trondheim, Norvège",
+                "description": "Clonify est une plateforme web qui utilise l'API Spotify pour générer des recommandations de musique en fonction des goûts des utilisateurs. Ce projet a été développé en utilisant TypeScript, VueJS et NestJS pour offrir une expérience utilisateur fluide et rapide. Il permet aux utilisateurs de naviguer les differents artistes, leurs musiques, album et les playlist des utilisateurs Spotify de manière claire et simple.",
+                "apprentissage": "Ce projet personnel fut développé dans le seul but d'apprendre le TypeScript et le VueJS, afin d'apprendre plus de framework JS/TS, car ce sont deux languages que j'affectionne particulièrement. Bien que le code NestJS n'est désormais plus présent, j'ai eu l'occasion d'en apprendre plus sur le NestJS grâce a ce projet.",
+                "tech": "TypeScript, VueJS, NestJS, API Spotify",
+                "link": "https://github.com/armandclonesady/spotify-project"
+            }
         }
     ]
 }

@@ -150,3 +150,7 @@ h2 {
 .desc, .apprentissage {
     padding-bottom: 1dvw;
 }
+
+.active {
+    filter: invert();
+}

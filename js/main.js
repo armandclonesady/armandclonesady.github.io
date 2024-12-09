@@ -25,9 +25,9 @@ function setContact(contactSection) {
 
 function setCorrectInfo(projectTitle) {
     projectJSON.forEach((project) => {
-        if (project.name == projectTitle) { 
-            console.log(project.values);
+        if (project.name == projectTitle) {
             const correctProject = project.values;
+            console.log(correctProject);
             projectDetail.querySelector('.location').innerText = correctProject.lieu;
             projectDetail.querySelector('.date').innerText = correctProject.date;
             projectDetail.querySelector('.desc').innerText = correctProject.description;
@@ -52,7 +52,6 @@ function removeText() {
 }
 
 function showCorrectProject(projectTitle, project) {
-    console.log(project);
     const currentProjectTitle = projectDetail.querySelector('h2');
     const holder = document.querySelector('.portfolio-content .content');
     if (holder.classList.contains('hidden')) {
@@ -82,7 +81,6 @@ function setProject() {
 
 function manageActive() {
     let project = document.querySelector('.projet-liste');
-    console.log(project);
     project.querySelectorAll('.project-item').forEach((item) => {
         if (item.classList.contains('active')) {
             item.classList.remove('active');

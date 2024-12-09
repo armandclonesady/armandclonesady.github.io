@@ -1,7 +1,6 @@
 import skills from './data/competences_data.js';
 
 function setSkills(type) {
-    console.log(type);
     let html = "";
     skills[type].forEach((skill) => {
         html += `<div class="skill"> ${skill} </div>`;
